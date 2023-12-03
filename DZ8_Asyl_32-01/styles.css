@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 750px;
+    height: 600px;
+    margin: 80px auto;
+    background: orange;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper h1 {
+    text-align: center;
+}
+
+.wrapper .status {
+    margin: 40px 0 0;
+}
+
+.cardBox {
+    margin: 20px 0;
+    height: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    overflow: hidden;
+}
+
+.cardBox button {
+    padding: 5px 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: rgb(128, 128, 128);
+    transition: 250ms;
+}
+
+.cardBox button:hover {
+    background: #afafaf;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+.cardBox button {
+    padding: 5px 15px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBox .divider {
+    width: 234px;
+    height: 100%;
+    padding: 5px 15px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: white;
+    transition: 250ms;
+    border-radius: 10px;
+}
+
+.cardBox button span {
+    position: absolute;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    z-index: 10;
+}
+
+form {
+    padding: 10px 0;
+}
+
+form h2 {
+    margin: 45px 0 0;
+}
+
+form .box {
+    display: flex;
+    margin: 10px 0;
+    gap: 20px;
+}
+
+form .box label {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+form .box input {
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: rgb(128, 128, 128);
+}
+
+form .box button {
+    width: 30%;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: white;
+    transition: 250ms;
+}
+
+form .box button:hover {
+    cursor: pointer;
+    transition: 250ms;
+}
+
+form .box button:active {
+    transform: scale(1.05);
+    transition: 250ms;
+}
+
+.result {
+    margin: 50px 0;
+}
+
+.result h2 {
+    margin-bottom: 30px;
+}
+
+.result h3 {
+    margin-bottom: 10px;
+}
